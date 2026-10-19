@@ -11,7 +11,7 @@ export ICON=https://raw.githubusercontent.com/pablocpas/OpenCMR2/refs/heads/main
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/opencmr2
+quick-sharun ./AppDir/bin/opencmr2 /usr/bin/zenity
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
