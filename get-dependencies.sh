@@ -14,7 +14,9 @@ pacman -Syu --noconfirm \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano 
+
+make-aur-package zenity-rs-bin
 
 echo "Building OpenCMR2..."
 echo "---------------------------------------------------------------"
