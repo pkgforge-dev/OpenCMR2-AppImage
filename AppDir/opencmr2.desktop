@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=OpenCMR2
+GenericName="Native SDL3 port of Colin McRae Rally 2.0"
+Icon=opencmr2_256
+Exec=opencmr2
+StartupWMClass=
+Terminal=false
+Categories=Game;ActionGame;
